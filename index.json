@@ -4,11 +4,11 @@
       "0.1"
     ]
   },
-  "branch": "BET-951",
+  "branch": "master",
   "is_contrib": true,
   "_links": {
-    "repository": "https://github.com/tahicz/symfony-status-logger-bundle/",
-    "origin_template": "{package}:{version}@github.com/tahicz/symfony-status-logger-bundle:BET-951",
-    "recipe_template": "https://api.github.com/repos/tahicz/symfony-status-logger-bundle/contents/{package_dotted}.{version}.json"
+    "repository": "https://github.com/tahicz/symfony-recipes/",
+    "origin_template": "{package}:{version}@github.com/tahicz/symfony-recipes:master",
+    "recipe_template": "https://api.github.com/repos/tahicz/symfony-recipes/contents/{package_dotted}.{version}.json"
   }
 }

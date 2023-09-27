@@ -1,3 +1,4 @@
 symfony_status_logger:
     path: 'api/status'
+    name: 'tahicz_status_page'
 #    controller: Tahicz\SymfonyStatusLoggerBundle\Controller::index
