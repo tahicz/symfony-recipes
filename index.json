@@ -1,0 +1,14 @@
+{
+  "recipes": {
+    "tahicz/symfony-status-logger-bundle": [
+      "0.1"
+    ]
+  },
+  "branch": "BET-951",
+  "is_contrib": true,
+  "_links": {
+    "repository": "https://github.com/tahicz/symfony-status-logger-bundle/",
+    "origin_template": "{package}:{version}@github.com/tahicz/symfony-status-logger-bundle:BET-951",
+    "recipe_template": "https://api.github.com/repos/tahicz/symfony-status-logger-bundle/contents/{package_dotted}.{version}.json"
+  }
+}
