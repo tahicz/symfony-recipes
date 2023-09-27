@@ -1,6 +1,7 @@
 {
   "recipes": {
     "tahicz/symfony-status-logger-bundle": [
+      "dev-BET-951",
       "0.1"
     ]
   },

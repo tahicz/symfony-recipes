@@ -1,0 +1,26 @@
+{
+  "manifests": {
+    "tahicz/symfony-status-logger-bundle": {
+      "manifest": {
+        "bundles": {
+          "Tahicz\\SymfonyStatusLoggerBundle\\SymfonyStatusLoggerBundle::class": ["all"]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/routes/api_platform.yaml": {
+          "contents": [
+            "symfony_status_logger:",
+            "    path: 'api/status'",
+            "    name: 'tahicz_status_page'",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "7405f3af1312d1f9121afed4dddef636c6c7ff00"
+    }
+  }
+}
